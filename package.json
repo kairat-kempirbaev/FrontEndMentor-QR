@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev:start": "tailwindcss -i public/main.css -o public/output.css --watch",
-    "dev:live": "live-server",
+    "dev:live": "live-server --open=public --entry-file=index.html",
     "dev": "concurrently --kill-others npm:dev:*",
     "build": "tailwindcss -o public/output.css --minify"
   }
