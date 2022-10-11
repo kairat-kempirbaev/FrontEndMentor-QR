@@ -7,9 +7,9 @@
     "concurrently": "^7.4.0"
   },
   "scripts": {
-    "dev:start": "tailwindcss -i ./main.css -o ./output.css --watch",
+    "dev:start": "tailwindcss -i public/main.css -o public/output.css --watch",
     "dev:live": "live-server",
-    "build": "tailwindcss -o output.css --minify",
-    "dev": "concurrently --kill-others npm:dev:*"
+    "dev": "concurrently --kill-others npm:dev:*",
+    "build": "tailwindcss -o public/output.css --minify"
   }
 }
