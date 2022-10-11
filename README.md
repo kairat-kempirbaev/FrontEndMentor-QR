@@ -7,7 +7,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Live server view]('./QRcode-screen.png')
+![Live server view](QRcode-screen.png)
 
 ### Links
 
